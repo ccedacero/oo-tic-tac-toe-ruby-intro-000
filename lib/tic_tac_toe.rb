@@ -146,7 +146,7 @@ end
 
 #Method makes use of all previous methods to compile the tic tac toe game and congratulate the winner or state that there has been a draw. 
 
-def play
+def play()
 while !over?()
 turn()
 end
